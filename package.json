@@ -1,0 +1,14 @@
+{
+  "name": "Mars-Rover",
+  "version": "0.0.1",
+  "description": "Mars-Rover",
+  "author": "Kapil",
+  "dependencies": {
+    "body-parser": "^1.2.0",
+    "express": "^4.2.0",
+    "express-session": "^1.7.5",
+    "method-override": "^1.0.0",
+    "morgan": "^1.0.0",
+    "underscore":"1.4.4"
+  }
+}

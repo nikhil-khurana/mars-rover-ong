@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html>
+<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+	<title>Mars Rover</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
+	<style>
+		body {margin:10px;color: #333;}
+		#info, .controls {position: relative; margin: 0 auto;text-align: center;}
+		#map {position: relative; margin: 0 auto;}
+		.pointer {position: absolute;}
+
+	</style>
+
+	<!-- JS -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!-- load jquery --> 
+	<script src="app.js"></script>
+
+</head>
+<!-- SET THE CONTROLLER AND GET ALL TODOS -->
+<body>
+	<div class="container" >
+		<div class="col-sm-6 col-sm-offset-3">
+			<div class="row well">
+				<div id="info"></div>
+			</div>
+			<div class="row well">
+				<div id="map"><i class="pointer glyphicon glyphicon-certificate"></i></div>
+			</div>
+			<div class="row well">
+				<div class="controls">
+					<button id="up" class="btn btn-primary" value="north"> <i class="glyphicon glyphicon-arrow-up"></i> </button>
+					<button id="left" class="btn btn-primary" value="west"> <i class="glyphicon glyphicon-arrow-left"></i> </button>
+					<button id="right" class="btn btn-primary" value="east"> <i class="glyphicon glyphicon-arrow-right"></i> </button>
+					<button id="down" class="btn btn-primary" value="south"> <i class="glyphicon glyphicon-arrow-down"></i> </button>
+				</div>
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
+
